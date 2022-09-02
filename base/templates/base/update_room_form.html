@@ -1,0 +1,7 @@
+<h1>Update Room Now</h1>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Update Room</button>
+</form>

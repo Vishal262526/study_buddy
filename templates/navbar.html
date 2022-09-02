@@ -1,0 +1,12 @@
+<a href="/">
+    <h1>Logo</h1>
+</a>
+
+<form accept="{% url 'home' %}" method="GET">
+    <input name="topic" type="text" placeholder="Search Room">
+    <button type="submit">Search</button>
+</form>
+
+<a href="{% url 'login' %}">Login</a>
+
+<hr>
